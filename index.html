@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .but1{
+            width: 60px;
+            height: 40px;
+            transition: all 0.4s ease-in-out .8s;
+            background-color: black;
+            color: white;
+        }
+        .but2{
+            width: 60px;
+            height: 40px;
+            transition-duration: 0.5s;
+            background-color: black;
+            color: white;
+        }
+        .but3{
+            width: 60px;
+            height: 40px;
+            transition-delay: 0.5s;
+            background-color: black;
+            color: white;
+        }
+        .but4{
+            width: 60px;
+            height: 40px;
+            transition-timing-function: ease-in-out;
+            transition-duration: 5s;
+            background-color: black;
+            color: white;
+        }
+        button:hover{
+            width: 100px;
+            height: 60px;
+            background-color: aqua;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <!-- "transition-delay" geçiş efektinin gecikme süresini belirler. -->
+    <!-- "transition-duration" geçiş efektinin tamamlanma süresini belirler. -->
+    <!-- "transition-property" geçiş efektinin hangi css özelliğine uygulanacağının adını belirtir. -->
+    <!-- "transition-timing-function" geçiş efektinin hız eğrisini belirtir. Geçiş şekilleri gibi. -->
+    <!-- "transition" Bu 4 geçiş efektinin hepsini ayarlayabilirsin. ilk yazacağın select property yani nereye yapılacağını seçiyorsun ikinci kısımda transition duration yani süresini giriyorsun üçüncü yere animation type yani timing function geçiş şeklini belirtiyorsun son olarak da animation delay yani gecikme süresini giriyorsun -->
+    <h1>Transition</h1>
+    <button class="but1">Okey</button><br><hr>
+    <h1>Transition-Duration</h1>
+    <button class="but2">Okey</button><br><hr>
+    <h1>Trasition-Delay</h1>
+    <button class="but3">Okey</button><br><hr>
+    
+</body>
+</html>
